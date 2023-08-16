@@ -2,7 +2,7 @@
 
 # FORKIO
 
-[**FORKIO**]([https://banzay700.github.io/step__FORKIO/](https://banzay700.github.io/forkio-landing/)) is a captivating and modern responsive landing page that combines seamless design with dynamic animations to create an engaging user experience. This pet project showcases an innovative blend of fade-in animations and Typing animations powered by typeit.js, ensuring that your visitors are greeted with a delightful visual journey.
+[**FORKIO**]([**FORKIO**](https://banzay700.github.io/forkio-landing/)) is a captivating and modern responsive landing page that combines seamless design with dynamic animations to create an engaging user experience. This pet project showcases an innovative blend of fade-in animations and Typing animations powered by typeit.js, ensuring that your visitors are greeted with a delightful visual journey.
 
 
 ### Languages and Tools:
