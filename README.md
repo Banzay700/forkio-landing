@@ -2,23 +2,8 @@
 
 # FORKIO
 
-[**FORKIO**](https://banzay700.github.io/step__FORKIO/) is a pet project written by passionate developers from Ukraine.
+[**FORKIO**]([https://banzay700.github.io/step__FORKIO/](https://banzay700.github.io/forkio-landing/)) is a captivating and modern responsive landing page that combines seamless design with dynamic animations to create an engaging user experience. This pet project showcases an innovative blend of fade-in animations and Typing animations powered by typeit.js, ensuring that your visitors are greeted with a delightful visual journey.
 
-### Developers:
-
--  [**Anna Simaniuk**](https://github.com/AnnaSimaniuk)
-
--  [**Oleksandr Lotko**](https://github.com/Banzay700)
-
-### Responsibility:
-
-[**Anna Simaniuk**](https://github.com/AnnaSimaniuk)
-
--  Worked on `header` section, `footer` section and section `Revolutionary Editor`.
-
-[**Oleksandr Lotko**](https://github.com/Banzay700)
-
--  Developed section `Here is what you get`, section `People Are Talking About Fork` and section`Fork Subscription Pricing`
 
 ### Languages and Tools:
 
