@@ -1,0 +1,119 @@
+.testimonials {
+   background-size: cover;
+   background-position: center 85%;
+   background-repeat: no-repeat;
+   background-image: url(../img/testimonials/testimonials-bg.jpg);
+
+   &__container {
+      padding-top: 108px;
+      padding-bottom: 49px;
+      text-align: center;
+
+      @media (max-width: 1100px) {
+         padding-top: 87px;
+         padding-bottom: 30px;
+      }
+
+      @media (max-width: 992px) {
+         padding-top: 86px;
+      }
+
+      @media (max-width: 570px) {
+         padding-top: 48px;
+         padding-bottom: 36px;
+      }
+   }
+
+   &__heading {
+      @media (max-width: 570px) {
+         @include fontPropertiesFull(null, 36, 48);
+      }
+   }
+
+   &__clients {
+      padding: 80px 0px 110px;
+      row-gap: 90px;
+      column-gap: 28px;
+      flex-wrap: wrap;
+      @include flexProperties(stretch, space-between);
+
+      @media (max-width: 1100px) {
+         padding: 88px 0px 80px;
+      }
+      @media (max-width: 1050px) {
+         row-gap: 62px;
+         justify-content: space-around;
+      }
+      @media (max-width: 992px) {
+         padding-bottom: 57px;
+         column-gap: 91px;
+         justify-content: center;
+      }
+      @media (max-width: 570px) {
+         row-gap: 41px;
+         padding: 45px 0px 29px;
+      }
+   }
+
+   &__info {
+      margin: 0 auto;
+      max-width: 887px;
+      position: relative;
+      color: color(accent, 'light');
+      @include fontPropertiesFull(null, 14, 21, 'Lato');
+
+      &::after {
+         background-color: #645766;
+         transform: translate(-50%, -140%);
+         @include absolute(140%, 50%, 780px, 2px);
+
+         @media (max-width: 992px) {
+            width: 555px;
+         }
+
+         @media (max-width: 570px) {
+            width: 245px;
+            top: 120%;
+            transform: translate(-50%, -120%);
+         }
+      }
+
+      @media (max-width: 992px) {
+         max-width: 704px;
+      }
+   }
+}
+
+.client-card {
+   max-width: 318px;
+   min-height: 138px;
+   text-align: center;
+
+   &__image {
+      min-height: 70px;
+      @include flexCenter;
+   }
+
+   &__description-wrapper {
+      overflow: hidden;
+   }
+
+   &__description {
+      color: color(secondary);
+      transform: translateY(65px);
+      opacity: 0;
+      transition: transform 0.4s, opacity 3s;
+      @include fontPropertiesFull(700, 16, 24, 'Lato-BoldItalic');
+
+      .show-up & {
+         opacity: 1;
+         transform: translateY(0px);
+      }
+   }
+}
+
+@for $i from 1 through 6 {
+   .anim-item-#{$i} {
+      transition-delay: 0s + calc($i / 5);
+   }
+}

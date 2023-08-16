@@ -1,0 +1,46 @@
+$fontFamily: 'Montserrat';
+$fontWeight: 400;
+$fontSize: 16px;
+
+$color-key: 'base' !default;
+$colors: (
+   primary: (
+      'base': #848e97,
+      'dark': #323232,
+   ),
+   secondary: (
+      'base': #ffffff,
+   ),
+   accent: (
+      'base': #8d81ac,
+      'light': #a291a5,
+      'dark': #635c73,
+   ),
+   background: (
+      'base': #ffffff,
+      'secondary': #f4f4f4,
+      'accent': #8d81ac,
+      'accentDark': #463048,
+      'dark': #000000,
+   ),
+   footer: (
+      'base': #4a3b4e,
+   ),
+);
+
+$u-opacity: (
+   'light': 0.06,
+   'lighter': 0.11,
+   'normal': 0.15,
+   'dark': 0.84,
+);
+
+$maxWidthCanvas: 1380px;
+$maxWidthContainer: 1200px;
+$containerPadding: 40px;
+$containerWidth: $maxWidthContainer + $containerPadding;
+$pc: $containerWidth;
+
+$tablet: 992px;
+$mobile: 480px;
+$mobileSmall: 320px;

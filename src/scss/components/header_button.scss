@@ -1,0 +1,45 @@
+.header__btn--wrapper {
+   position: relative;
+   overflow: hidden;
+   font-family: 'Montserrat', sans-serif;
+   border-radius: 40px;
+   cursor: pointer;
+   background-color: color(accent);
+}
+
+.header__btn--text {
+   width: 100%;
+   height: 100%;
+   border: 1px solid color(accent);
+   border-radius: 40px;
+   cursor: pointer;
+   position: absolute;
+   font-family: 'Montserrat', sans-serif;
+   color: color(accent);
+   overflow: hidden;
+   background-color: color(secondary);
+}
+
+.header__btn {
+   font-family: 'Montserrat', sans-serif;
+   width: 101%;
+   height: 100%;
+
+   @include button(
+      color(accent),
+      'https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png',
+      3000%,
+      100%,
+      none,
+      #fff
+   );
+   -webkit-mask-position: 0 0;
+   mask-position: 0 0;
+   cursor: pointer;
+   transition: all 0.7s steps(29);
+
+   &:hover {
+      -webkit-mask-position: 100% 0;
+      mask-position: 100% 0;
+   }
+}

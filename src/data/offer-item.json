@@ -1,0 +1,34 @@
+[
+   {
+      "className": "grid-item-one",
+      "name": "Students",
+      "price": "29",
+      "period": "per month",
+      "description": "Personal License",
+      "button-text": "purchase"
+   },
+   {
+      "className": "grid-item-two",
+      "name": "professional",
+      "price": "59",
+      "period": "per month",
+      "description": "Professional License <br> Email Support",
+      "button-text": "purchase"
+   },
+   {
+      "className": "grid-item-three",
+      "name": "agency",
+      "price": "99",
+      "period": "per month",
+      "description": "1-12 Team Members <br> Phone Support",
+      "button-text": "purchase"
+   },
+   {
+      "className": "grid-item-four",
+      "name": "enterprise",
+      "price": "159",
+      "period": "per month",
+      "description": "Unlimited Team Members <br> 24/ 7 Phone Support",
+      "button-text": "purchase"
+   }
+]

@@ -1,0 +1,29 @@
+.offer-item.select {
+   width: 299px;
+
+   .offer-item__title {
+      padding: 44px 30px;
+      background-color: #463048;
+   }
+   .offer-item__body {
+      padding: 10px 0px 46px;
+      background-color: rgba(70, 48, 72, 0.84);
+   }
+   .offer-item__price {
+      font-size: 82px;
+   }
+   .offer-item__date {
+      margin: 14px 0px 99px;
+
+      &::after {
+         top: 40%;
+         transform: translate(-50%, -40%);
+      }
+   }
+   .offer-item__description {
+      margin-bottom: 82px;
+   }
+   .offer-item__button {
+      padding: 20px 52px;
+   }
+}

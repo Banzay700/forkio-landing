@@ -1,0 +1,45 @@
+@mixin flexCenter($align: center, $justify: center, $direction: row) {
+   display: flex;
+   align-items: $align;
+   justify-content: $justify;
+   flex-direction: $direction;
+}
+
+@mixin flexProperties($align: normal, $justify: flex-start, $direction: row) {
+   display: flex;
+   align-items: $align;
+   justify-content: $justify;
+   flex-direction: $direction;
+}
+
+@mixin fontPropertiesFull($fontWeight: $fontWeight, $fontSize, $lineHeight, $fontFamily: $fontFamily) {
+   font-family: $fontFamily;
+   font-weight: $fontWeight;
+   font-size: $fontSize + px;
+   line-height: math.div($lineHeight, $fontSize);
+}
+
+@mixin fontProperties($fontWeight: $fontWeight, $fontSize, $lineHeight) {
+   font-weight: $fontWeight;
+   font-size: $fontSize + px;
+   line-height: math.div($lineHeight, $fontSize);
+}
+
+@mixin absolute($top, $left, $width, $height) {
+   position: absolute;
+   content: '';
+   top: $top;
+   left: $left;
+   width: $width;
+   height: $height;
+}
+
+@mixin button($bcolor, $url, $x1, $y1, $bor, $col) {
+   background: $bcolor;
+   -webkit-mask: url($url);
+   mask: url($url);
+   -webkit-mask-size: $x1 $y1;
+   mask-size: $x1 $y1;
+   border: $bor;
+   color: $col;
+}

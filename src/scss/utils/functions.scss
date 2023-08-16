@@ -1,0 +1,28 @@
+//REM
+@function rem($px) {
+   $result: math.div($px, 16) + rem;
+   @return $result;
+}
+//EM
+@function em($px, $current: 16) {
+   $result: math.div($px, $current) + em;
+   @return $result;
+}
+
+@function color($name: 'primary', $variant: $color-key, $opacity: 1) {
+   $color: null;
+   // Get the color spectrum
+   $color-spectrum: map-get($colors, $name);
+   // Get the color variant
+   @if $color-spectrum {
+      $color: map-get($color-spectrum, $variant);
+   }
+   // Get the alpha setting
+   $alpha: if(type-of($opacity) == 'number', $opacity, map-get($u-opacity, $opacity));
+   // Set the alpha of the color
+   @if $alpha {
+      $color: rgba($color, $alpha);
+   }
+
+   @return $color;
+}

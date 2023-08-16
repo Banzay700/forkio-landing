@@ -1,0 +1,32 @@
+@use 'sass:map';
+@use 'sass:math';
+
+@import 'base/module';
+@import 'utils/module';
+
+body {
+   font-family: $fontFamily;
+   font-weight: $fontWeight;
+   font-size: $fontSize;
+   color: color(primary);
+   background-color: color(background);
+   overflow-x: hidden;
+   user-select: none;
+}
+
+.wrapper {
+   min-height: 100%;
+   min-width: 100%;
+   display: flex;
+   flex-direction: column;
+   overflow: clip;
+}
+
+[class*='__container'] {
+   max-width: $containerWidth;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+@import 'components/module';
+@import 'layout/module';

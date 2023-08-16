@@ -1,0 +1,11 @@
+.heading {
+   color: color(accent);
+   @include fontPropertiesFull(700, 48, 50);
+
+   @media (max-width: 1050px) {
+      @include fontPropertiesFull(null, 42, 44);
+   }
+}
+.heading-white {
+   color: color(secondary);
+}

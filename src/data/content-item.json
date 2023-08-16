@@ -1,0 +1,22 @@
+[
+   {
+      "src": "./img/section-here/web.svg",
+      "title": "Creatred to Make The Web Better",
+      "text": "Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue."
+   },
+   {
+      "src": "./img/section-here/tool.svg",
+      "title": "Incredibly Powerful Tool",
+      "text": "Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. "
+   },
+   {
+      "src": "./img/section-here/stuff.svg",
+      "title": "Experimental Stuff",
+      "text": "Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. "
+   },
+   {
+      "src": "./img/section-here/better.svg",
+      "title": "Creatred to Make The Web Better",
+      "text": "Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat. "
+   }
+]

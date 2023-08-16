@@ -1,0 +1,32 @@
+[
+   {
+      "className": "anim-item-1",
+      "src": "./img/testimonials/01.svg",
+      "description": "Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. "
+   },
+   {
+      "className": "anim-item-2",
+      "src": "./img/testimonials/02.svg",
+      "description": "Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum, rhoncus molestie neque ac, mollis eleifend nibh."
+   },
+   {
+      "className": "anim-item-3",
+      "src": "./img/testimonials/03.svg",
+      "description": "In efficitur in velit et tempus. Duis nec odio dapibus, suscipit erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac vehicula. "
+   },
+   {
+      "className": "anim-item-4",
+      "src": "./img/testimonials/04.svg",
+      "description": "Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet. Proin id dignissim magna. Sed varius urna et pulvinar venenatis. "
+   },
+   {
+      "className": "anim-item-5",
+      "src": "./img/testimonials/05.svg",
+      "description": "Praesent ut eros tristique, malesuada lectus vel, lobortis massa. Nulla faucibus lorem id arcu consequat faucibus. "
+   },
+   {
+      "className": "anim-item-6",
+      "src": "./img/testimonials/06.svg",
+      "description": "Fusce pharetra erat id odio blandit, nec pharetra eros venenatis. Pellentesque porttitor cursus massa et vestibulum."
+   }
+]
